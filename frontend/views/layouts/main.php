@@ -20,6 +20,7 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="<?=$baseUrl.'/images/favicon.png'?>">
         <?php $this->registerCsrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
@@ -82,31 +83,31 @@ AppAsset::register($this);
                     <table class="table-sm">
                         <tr>
                             <td>Monday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>Closed</td>
                         </tr>
                         <tr>
                             <td>Tuesday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>Closed</td>
                         </tr>
                         <tr>
                             <td>Wednesday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>18:00 – 02:00</td>
                         </tr>
                         <tr>
                             <td>Thursday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>18:00 – 02:00</td>
                         </tr>
                         <tr>
                             <td>Friday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>18:00 – 02:00</td>
                         </tr>
                         <tr>
                             <td>Saturday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>18:00 – 02:00</td>
                         </tr>
                         <tr>
                             <td>Sunday</td>
-                            <td>11:00 – 01:00</td>
+                            <td>18:00 – 02:00</td>
                         </tr>
                     </table>
                 </div>
