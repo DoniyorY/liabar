@@ -112,7 +112,35 @@ section.index_4 {
     font-size: 50px !important;
     line-height: 50px !important;
 }
+.breadcrumbs{
+    background: #1E1E1E;
+    height: 275px;
+}
+.breadcrumbs_title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.events-image{
+    background-image: url("/images/event-br.png");
+    background-size: cover;
+    height: 275px;
+}
 
+.image-left {
+    background: black;
+}
+.left_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
 
 .footer {
     background-color: #000;

@@ -20,7 +20,7 @@ AppAsset::register($this);
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="<?=$baseUrl.'/images/favicon.png'?>">
+        <link rel="icon" href="<?= $baseUrl . '/images/favicon.png' ?>">
         <?php $this->registerCsrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
@@ -60,12 +60,12 @@ AppAsset::register($this);
         <?= $content ?>
     </main>
 
-    <footer class="footer mt-auto py-3 text-muted">
+    <footer class="footer mt-auto py-3 text-muted" id="contacts">
         <div class="container footer_main">
             <div class="row">
                 <div class="col-md-4 footer_menu">
                     <ul>
-                        <li><a href="<?=Yii::$app->homeUrl?>">Main</a></li>
+                        <li><a href="<?= Yii::$app->homeUrl ?>">Main</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['menu/index']) ?>">Menu</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['site/events']) ?>">Events</a></li>
                         <li><a href="#contacts">Contacts</a></li>
