@@ -38,7 +38,7 @@ AppAsset::register($this);
             ],
         ]);
         $menuItems = [
-            ['label' => 'Menu', 'url' => ['/menu/index']],
+            ['label' => 'Menu', 'url' => ['/site/menu']],
             ['label' => 'Events', 'url' => ['/site/events']],
             ['label' => 'Contacts', 'url' => '#contacts'],
         ];
@@ -66,7 +66,7 @@ AppAsset::register($this);
                 <div class="col-md-4 footer_menu">
                     <ul>
                         <li><a href="<?= Yii::$app->homeUrl ?>">Main</a></li>
-                        <li><a href="<?= \yii\helpers\Url::to(['menu/index']) ?>">Menu</a></li>
+                        <li><a href="<?= \yii\helpers\Url::to(['site/menu']) ?>">Menu</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['site/events']) ?>">Events</a></li>
                         <li><a href="#contacts">Contacts</a></li>
                     </ul>
