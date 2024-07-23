@@ -2,9 +2,6 @@
 $this->title = 'Events';
 $baseUrl = Yii::$app->request->baseUrl;
 $lang = Yii::$app->language;
-
-use yii\helpers\Url;
-
 ?>
 <section class="breadcrumbs">
     <div class="section_inner">

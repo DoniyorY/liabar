@@ -25,7 +25,7 @@ AppAsset::register($this);
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100 <?= (Yii::$app->controller->action->uniqueId === 'site/menu') ? 'menu_background' : '' ?>">
     <?php $this->beginBody() ?>
 
     <header>
