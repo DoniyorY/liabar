@@ -6,16 +6,18 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'user.passwordMinLength' => 8,
-    'menu_type_id'=>[
-        0=>[
-            'ru'=>'Алкоголь',
-            'en'=>'Alcohol',
-            'uz'=>'Alkogol'
+    'menu_type_id' => [
+        'ru' => [
+            0 => 'Алкоголь',
+            1 => 'Еда',
         ],
-        1=>[
-            'ru'=>'Еда',
-            'en'=>'Dishes',
-            'uz'=>'Ovqat'
+        'en' => [
+            0 => 'Alcohol',
+            1 => 'Dishes',
+        ],
+        'uz' => [
+            0 => 'Alkogol',
+            1 => 'Ovqat',
         ]
     ]
 ];
