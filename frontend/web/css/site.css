@@ -226,23 +226,49 @@ section.index_4 {
     background-image: url("/images/menu-background.png");
     padding-top: 0;
     height: 100%;
-    background-size: cover;
+    background-size: inherit;
 }
 
 .main_menu .breadcrumbs {
     background: none;
 }
-.breadcrumbs .section_inner{
+
+.breadcrumbs .section_inner {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.menu_container{
+
+.menu_container {
     padding-top: 70px;
     color: white;
 }
-.menu_item{
+
+.menu_item {
     margin-top: 50px;
     padding: 50px;
+}
+
+section.menu_photo {
+    height: auto !important;
+}
+section.menu_list{
+    height: auto !important;
+}
+ .nav-pills .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+ .nav-pills .nav-link.active {
+    color: white;
+    font-size: 34px;
+    background: none;
+}
+ .menu_bar_container{
+     margin-top: 70px;
+ }
+.menu_bar_item{
+    color: white;
+
 }
 .footer {
     background-color: #000;
