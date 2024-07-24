@@ -139,7 +139,7 @@ $baseUrl = Yii::$app->request->baseUrl;
                     <a class="nav-link item active" id="nav-bar1-tab" data-bs-toggle="tab" data-bs-target="#nav-bar1"
                        type="button" role="tab" aria-controls="nav-bar1" aria-selected="true">SPARKLING WINES & CHAMPAGNE</a>
                     <a class="nav-link item" id="nav-bar2-tab" data-bs-toggle="tab" data-bs-target="#nav-bar2"
-                       type="button" role="tab" aria-conаtrols="nav-bar2" aria-selected="false">WINE BY GLASSES</a>
+                       type="button" role="tab" aria-controls="nav-bar2" aria-selected="false">WINE BY GLASSES</a>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
