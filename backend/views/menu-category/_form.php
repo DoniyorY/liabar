@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 /** @var yii\web\View $this */
 /** @var common\models\MenuCategory $model */
 /** @var yii\widgets\ActiveForm $form */
-$lang=Yii::$app->language;
+$lang = Yii::$app->language;
 ?>
 
 <div class="menu-category-form">
@@ -16,15 +16,19 @@ $lang=Yii::$app->language;
         <div class="col-md-12">
             <?= $form->field($model, 'type_id')->dropDownList(Yii::$app->params['menu_type_id']['ru']) ?>
         </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'name_ru')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'name_en')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'name_uz')->textInput(['maxlength' => true]) ?>
+        </div>
     </div>
 
-    <?= $form->field($model, 'name_ru')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'name_en')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'name_uz')->textInput(['maxlength' => true]) ?>
-
-    <div class="form-group">
+    <div class="form-group mt-3">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
 
