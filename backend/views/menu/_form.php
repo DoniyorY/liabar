@@ -13,7 +13,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
     <div class="row">
         <div class="col-md-12">
-            <?= $form->field($model, 'category_id')->dropDownList(\yii\helpers\ArrayHelper::map(\common\models\MenuCategory::find()->all(), 'id', 'name_ru'), ['value' => 12]) ?>
+            <?= $form->field($model, 'category_id')->dropDownList(\yii\helpers\ArrayHelper::map(\common\models\MenuCategory::find()->all(), 'id', 'name_ru'), ['value' => 15]) ?>
         </div>
         <div class="col-md-4">
             <?= $form->field($model, 'title_ru')->textInput(['maxlength' => true]) ?>
