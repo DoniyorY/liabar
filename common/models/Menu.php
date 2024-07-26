@@ -18,7 +18,8 @@ use Yii;
  * @property int $price
  * @property int $created
  * @property int $status
- * @property string $country
+ * @property string $country_ru
+ * @property string $country_en
  */
 class Menu extends \yii\db\ActiveRecord
 {
@@ -38,7 +39,7 @@ class Menu extends \yii\db\ActiveRecord
         return [
             [['category_id', 'price', 'created', 'status'], 'integer'],
             [['title_ru', 'title_en', 'short_ru', 'short_en', 'price', 'created', 'status', 'country'], 'required'],
-            [['title_ru', 'title_en', 'title_uz', 'short_ru', 'short_en', 'short_uz', 'country'], 'string', 'max' => 255],
+            [['title_ru', 'title_en', 'title_uz', 'short_ru', 'short_en', 'short_uz', 'country_ru','country_en'], 'string', 'max' => 255],
         ];
     }
 
@@ -59,7 +60,7 @@ class Menu extends \yii\db\ActiveRecord
             'price' => 'Price',
             'created' => 'Created',
             'status' => 'Status',
-            'country' => 'Country',
+            'country_ru' => 'Country Ru',
         ];
     }
 

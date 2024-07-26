@@ -40,7 +40,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'price',
             'created',
             'status',
-            'country',
+            'country_ru',
+            'country_en',
         ],
     ]) ?>
 

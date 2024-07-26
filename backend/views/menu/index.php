@@ -56,7 +56,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             'status',
-            //'country',
+            //'country_ru',
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Menu $model, $key, $index, $column) {

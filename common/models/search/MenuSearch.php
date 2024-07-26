@@ -71,7 +71,8 @@ class MenuSearch extends Menu
             ->andFilterWhere(['like', 'short_ru', $this->short_ru])
             ->andFilterWhere(['like', 'short_en', $this->short_en])
             ->andFilterWhere(['like', 'short_uz', $this->short_uz])
-            ->andFilterWhere(['like', 'country', $this->country]);
+            ->andFilterWhere(['like', 'country_ru', $this->country_ru])
+            ->andFilterWhere(['like', 'country_en', $this->country_en]);
 
         return $dataProvider;
     }
