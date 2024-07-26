@@ -33,11 +33,14 @@ use yii\widgets\ActiveForm;
         <div class="col-md-4">
             <?= $form->field($model, 'short_uz')->textInput(['maxlength' => true]) ?>
         </div>
-        <div class="col-md-6">
-            <?= $form->field($model, 'price')->textInput() ?>
+        <div class="col-md-4">
+            <?= $form->field($model, 'country_ru')->textInput(['maxlength' => true]) ?>
         </div>
-        <div class="col-md-6">
-            <?= $form->field($model, 'country')->textInput(['maxlength' => true]) ?>
+        <div class="col-md-4">
+            <?= $form->field($model, 'country_en')->textInput(['maxlength' => true]) ?>
+        </div>
+        <div class="col-md-4">
+            <?= $form->field($model, 'price')->textInput() ?>
         </div>
     </div>
     <div class="form-group mt-3">
