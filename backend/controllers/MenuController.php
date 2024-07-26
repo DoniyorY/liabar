@@ -70,7 +70,10 @@ class MenuController extends Controller
         $model = new Menu();
 
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
+            if ($model->load($this->request->post())) {
+                $model->created=time();
+                $model->status=0;
+                $model->save();
                 return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {
