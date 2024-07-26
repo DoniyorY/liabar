@@ -74,7 +74,7 @@ class MenuController extends Controller
                 $model->created=time();
                 $model->status=0;
                 $model->save();
-                return $this->redirect(['view', 'id' => $model->id]);
+                return $this->redirect(['create']);
             }
         } else {
             $model->loadDefaultValues();
