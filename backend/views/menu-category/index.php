@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute' => 'type_id',
                 'value' => function ($model) {
-                   return Yii::$app->params['menu_type_id'][$model->type_id];
+                   return Yii::$app->params['menu_type_id']['ru'][$model->type_id];
                 }
             ],
             'name_ru',
