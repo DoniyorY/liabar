@@ -38,7 +38,7 @@ class Menu extends \yii\db\ActiveRecord
     {
         return [
             [['category_id', 'price', 'created', 'status'], 'integer'],
-            [['title_ru', 'title_en', 'short_ru', 'short_en', 'price', 'created', 'status', 'country'], 'required'],
+            [['title_ru', 'title_en', 'short_ru', 'short_en', 'price', 'created', 'status', 'country_ru','country_en'], 'required'],
             [['title_ru', 'title_en', 'title_uz', 'short_ru', 'short_en', 'short_uz', 'country_ru','country_en'], 'string', 'max' => 255],
         ];
     }
