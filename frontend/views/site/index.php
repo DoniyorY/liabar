@@ -27,9 +27,7 @@ $this->title = 'LiaBar';
 <section class="index_2">
     <div class="section_inner">
         <div class="img_block owl-carousel" id="index2">
-            <div class="item">
-                <img src="<?= "$baseUrl/images/index21.png" ?>" alt="">
-            </div>
+
             <div class="item">
                 <img src="<?= "$baseUrl/images/index22.png" ?>" alt="">
             </div>

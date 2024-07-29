@@ -44,7 +44,7 @@ $baseUrl = Yii::$app->request->baseUrl;
                                                 <div class="col-8"><h4 class="white"><?=$m->{"title_en"}?></h4></div>
                                                 <div class="col-4"><?=Yii::$app->formatter->asDecimal($m->price,0)?> UZS</div>
                                                 <hr style="height: 5px;">
-                                                <div class="col-12"><?=$item->{"short_en"}?>
+                                                <div class="col-12"><?=$m->{"short_en"}?>
                                                 </div>
                                             </div>
                                         </div>
