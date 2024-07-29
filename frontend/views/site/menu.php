@@ -174,7 +174,7 @@ $baseUrl = Yii::$app->request->baseUrl;
             </div>
         </div>
     </section>
-    <div class="prefooter">
-        <img src="<?= "$baseUrl/images/menu_prefooter.png" ?>" alt="" style="width: 100%; ">
-    </div>
+    <!--<div class="prefooter">
+        <img src="<?php /*= "$baseUrl/images/menu_prefooter.png" */?>" alt="" style="width: 100%; ">
+    </div>-->
 </div>
