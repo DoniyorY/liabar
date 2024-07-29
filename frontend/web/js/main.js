@@ -21,6 +21,28 @@ $(document).ready(function () {
             }
         }
     })
+    $('#index3').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        autoplaySpeed: 2000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1,
+                animateOut: 'slideOutDown',
+                animateIn: 'flipInX',
+            }
+        }
+    })
     $('.owl-menu').owlCarousel({
         loop: false,
         margin: 10,

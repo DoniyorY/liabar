@@ -28,16 +28,16 @@ $this->title = 'LiaBar';
     <div class="section_inner">
         <div class="img_block owl-carousel" id="index2">
             <div class="item">
-                <img src="<?="$baseUrl/images/index21.png"?>" alt="">
+                <img src="<?= "$baseUrl/images/index21.png" ?>" alt="">
             </div>
             <div class="item">
-                <img src="<?="$baseUrl/images/index22.png"?>" alt="">
+                <img src="<?= "$baseUrl/images/index22.png" ?>" alt="">
             </div>
             <div class="item">
-                <img src="<?="$baseUrl/images/index23.png"?>" alt="">
+                <img src="<?= "$baseUrl/images/index23.png" ?>" alt="">
             </div>
             <div class="item">
-                <img src="<?="$baseUrl/images/index24.png"?>" alt="">
+                <img src="<?= "$baseUrl/images/index24.png" ?>" alt="">
             </div>
         </div>
         <div class="container h-100 index_2_content">
@@ -68,10 +68,21 @@ $this->title = 'LiaBar';
     </div>
     <div class="border-bottom"></div>
 </section>
-<section class="index_3">
-    <div class="section_inner_bottom">
-        <div class="container h-100">
-            <div class="section_content h-100 justify-content-center d-flex align-content-center flex-column text-center">
+<section class="index_2">
+    <div class="section_inner">
+        <div class="img_block owl-carousel" id="index3">
+            <div class="item">
+                <img src="<?= "$baseUrl/images/index31.png" ?>" alt="">
+            </div>
+            <div class="item">
+                <img src="<?= "$baseUrl/images/index32.png" ?>" alt="">
+            </div>
+            <div class="item">
+                <img src="<?= "$baseUrl/images/index33.png" ?>" alt="">
+            </div>
+        </div>
+        <div class="container h-100 position-relative">
+            <div class="section_content_3 h-100 justify-content-center d-flex align-content-center flex-column text-center">
                 <div class="index_logo">
                     <img src="<?= "$baseUrl/images/terrace_logo.png" ?>" alt="">
                 </div>
@@ -87,6 +98,7 @@ $this->title = 'LiaBar';
             </div>
         </div>
     </div>
+    <div class="border-bottom"></div>
 </section>
 <section class="index_4">
     <div class="section_inner_bottom">
