@@ -147,7 +147,9 @@ section.index_4 {
     height: 100%;
     z-index: 99;
 }
-
+section.menu_bar{
+    height: auto;
+}
 .index_logo img {
     /*width: 90px;
     height: 115px;*/
