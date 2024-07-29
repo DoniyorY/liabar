@@ -73,8 +73,12 @@ class SiteController extends Controller
 
     public function actionMenu()
     {
-        $ctg=MenuCategory::findAll(['type_id'=>0]);
-        return $this->render('menu',['ctg'=>$ctg]);
+        $ctg = MenuCategory::findAll(['type_id' => 0]);
+        $ctg_menu = MenuCategory::findAll(['type_id' => 1]);
+        return $this->render('menu', [
+            'ctg' => $ctg,
+            'ctg_menu' => $ctg_menu
+        ]);
     }
 }
 
