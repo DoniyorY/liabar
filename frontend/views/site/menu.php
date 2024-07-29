@@ -158,26 +158,16 @@ $baseUrl = Yii::$app->request->baseUrl;
                                 <div class="col-md-12 menu_bar_item">
                                     <div class="row menu_bar_container">
                                         <div class="col-md-4">
-                                            <h4 class="white">Casa Bella Brut (semi-sweet)</h4>
+                                            <h4 class="white"><?= $m->{"title_en"} ?></h4>
                                         </div>
-                                        <div class="col-md-4 text-center">Uzbekistan</div>
-                                        <div class="col-md-4 text-center"> 150 000 UZS</div>
+                                        <div class="col-md-4 text-center"><?= $m->{"country_en"} ?></div>
+                                        <div class="col-md-4 text-center"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
+                                            UZS
+                                        </div>
                                         <hr>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
-                            <div class="col-md-12 menu_bar_item">
-                                <div class="row menu_bar_container">
-                                    <div class="col-md-4">
-                                        <h4 class="white"><?= $m->{"title_en"} ?></h4>
-                                    </div>
-                                    <div class="col-md-4 text-center"><?= $m->{"country_en"} ?></div>
-                                    <div class="col-md-4 text-center"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
-                                        UZS
-                                    </div>
-                                    <hr>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 <?php endforeach; ?>

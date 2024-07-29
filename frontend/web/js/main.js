@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#index2').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 0,
         nav: false,
         dots: false,
@@ -22,7 +22,7 @@ $(document).ready(function () {
         }
     })
     $('.owl-menu').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 10,
         nav: false,
         responsive: {
