@@ -65,7 +65,7 @@ AppAsset::register($this);
             <div class="row">
                 <div class="col-md-4 footer_menu">
                     <ul>
-                        <li><a href="<?= Yii::$app->homeUrl ?>">Main</a></li>
+                        <li style="margin: 0;"><a href="<?= Yii::$app->homeUrl ?>">Main</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['site/menu']) ?>">Menu</a></li>
                         <li><a href="<?= \yii\helpers\Url::to(['site/events']) ?>">Events</a></li>
                         <li><a href="#contacts">Contacts</a></li>

@@ -2,6 +2,8 @@
 
 namespace frontend\controllers;
 
+use common\models\Menu;
+use common\models\MenuCategory;
 use frontend\models\ResendVerificationEmailForm;
 use frontend\models\VerifyEmailForm;
 use Yii;
@@ -71,8 +73,8 @@ class SiteController extends Controller
 
     public function actionMenu()
     {
-
-        return $this->render('menu');
+        $ctg=MenuCategory::findAll(['type_id'=>0]);
+        return $this->render('menu',['ctg'=>$ctg]);
     }
 }
 

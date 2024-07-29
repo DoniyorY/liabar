@@ -81,10 +81,44 @@ section.index_1 {
 }
 
 section.index_2 {
-    background: url("/images/index_2.png");
+    /*background: url("/images/index_2.png");*/
     background-size: cover;
+    position: relative;
+    padding: 0!important;
 }
-
+.img_block{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.img_block img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+.index_2_content{
+    position: absolute;
+    top: -65px;
+    left: 305px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+section.index_2 .owl-stage-outer, .owl-stage, .owl-item, .item{
+    height: 100%;
+}
+section .border-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    z-index: 99;
+}
 section.index_3 {
     background: url("/images/index_3.png");
     background-size: cover;
