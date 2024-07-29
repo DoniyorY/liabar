@@ -402,10 +402,13 @@ a.desc:after {
     padding-top: 7px;
     color: rgba(255, 255, 255, 0.5);
 }
-.index_desc{
+.index_desc p{
     width: 75%;
 }
 @media (max-width: 767px) {
+    .index_desc p{
+        width: 100%;
+    }
     .index_2_desc p{
         font-size: 35px;
         line-height: 35px;
