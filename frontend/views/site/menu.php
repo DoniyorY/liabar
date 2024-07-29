@@ -148,9 +148,9 @@ $baseUrl = Yii::$app->request->baseUrl;
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
-                <?php foreach ($ctg as $item):
+                <?php foreach ($ctg as $key=>$item):
                     $menu = Menu::findAll(['category_id' => $item->id]) ?>
-                    <div class="tab-pane fade show active" id="nav-<?= $item->id ?>" role="tabpanel"
+                    <div class="tab-pane fade <?=($key==0)?'show active':''?>" id="nav-<?= $item->id ?>" role="tabpanel"
                          aria-labelledby="nav-<?= $item->id ?>-tab"
                          tabindex="0">
                         <div class="row">
