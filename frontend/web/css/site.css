@@ -50,7 +50,9 @@ p, span {
 .font-bold {
     font-weight: bold;
 }
-
+section.bar_title{
+    height: auto;
+}
 @media (min-width: 1080px) {
     header nav {
         height: 100px;

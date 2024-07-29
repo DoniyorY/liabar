@@ -139,11 +139,11 @@ $baseUrl = Yii::$app->request->baseUrl;
         <div class="container">
             <nav class="mt-5">
                 <div class="nav nav-pills text-center owl-carousel owl-bar menu_nav" id="nav-tab" role="tablist">
-                    <?php foreach ($ctg as $item): ?>
-                        <a class="nav-link item active" id="nav-<?= $item->id ?>-tab" data-bs-toggle="tab"
+                    <?php foreach ($ctg as $key=> $item): ?>
+                        <a class="nav-link item <?=$key==0?'active':''?>" id="nav-<?= $item->id ?>-tab" data-bs-toggle="tab"
                            data-bs-target="#nav-<?= $item->id ?>"
                            type="button" role="tab" aria-controls="nav-<?= $item->id ?>"
-                           aria-selected="true"><?= $item->{"name_en"} ?></a>
+                           aria-selected="<?=$key==0?'true':''?>"><?= $item->{"name_en"} ?></a>
                     <?php endforeach; ?>
                 </div>
             </nav>
@@ -174,7 +174,7 @@ $baseUrl = Yii::$app->request->baseUrl;
             </div>
         </div>
     </section>
-    <!--<div class="prefooter">
-        <img src="<?php /*= "$baseUrl/images/menu_prefooter.png" */?>" alt="" style="width: 100%; ">
-    </div>-->
+    <div class="prefooter">
+        <img src="<?= "$baseUrl/images/menu_prefooter.png" ?>" alt="" style="width: 100%; ">
+    </div>
 </div>
