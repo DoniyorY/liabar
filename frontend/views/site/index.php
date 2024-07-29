@@ -55,7 +55,7 @@ $this->title = 'LiaBar';
                     </div>
                 </div>
                 <div class="index_desc d-flex justify-content-center mt-3">
-                    <p class="white w-75">
+                    <p class="white">
                         Our club boasts a luxurious interior that combines modern design with traditional Eastern
                         elements. The space is filled with soft lighting, creating an atmosphere of comfort and
                         exclusivity.

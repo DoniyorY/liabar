@@ -71,7 +71,7 @@ AppAsset::register($this);
                         <li><a href="#contacts">Contacts</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 footer2">
                     <h3>Address</h3>
                     <p class="mt-5">
                         Rowing canal <br>
@@ -79,7 +79,7 @@ AppAsset::register($this);
                         Uzbekistan
                     </p>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center">
+                <div class="col-md-4 d-flex justify-content-begin justify-content-md-center mt-3 mt-md-0">
                     <table class="table-sm">
                         <tr>
                             <td>Monday</td>
