@@ -59,20 +59,20 @@ $baseUrl = Yii::$app->request->baseUrl;
         </div>
     </section>
     <section class="menu_photo">
-        <div class="section_inner_top py-5">
-            <div class="container">
+        <div class="section_inner_top pt-5">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="<?= "$baseUrl/images/menu_photo1.png" ?>" alt="">
+                    <div class="col-md-3 m-0 p-0 mt-3 mt-mb-0">
+                        <img style="width: 100%;" src="<?= "$baseUrl/images/menu_photo1.png" ?>" alt="">
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?= "$baseUrl/images/menu_photo2.png" ?>" alt="">
+                    <div class="col-md-3 m-0 p-0 mt-3 mt-mb-0">
+                        <img style="width: 100%;" src="<?= "$baseUrl/images/menu_photo2.png" ?>" alt="">
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?= "$baseUrl/images/menu_photo3.png" ?>" alt="">
+                    <div class="col-md-3 m-0 p-0 mt-3 mt-mb-0">
+                        <img style="width: 100%;" src="<?= "$baseUrl/images/menu_photo3.png" ?>" alt="">
                     </div>
-                    <div class="col-md-3">
-                        <img src="<?= "$baseUrl/images/menu_photo4.png" ?>" alt="">
+                    <div class="col-md-3 m-0 p-0 mt-3 mt-mb-0">
+                        <img style="width: 100%;" src="<?= "$baseUrl/images/menu_photo4.png" ?>" alt="">
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ $baseUrl = Yii::$app->request->baseUrl;
                                             <h4 class="white"><?= $m->{"title_en"} ?></h4>
                                         </div>
                                         <div class="col-md-4 text-center"><?= $m->{"country_en"} ?></div>
-                                        <div class="col-md-4 text-center"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
+                                        <div class="col-md-4 text-end"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
                                             UZS
                                         </div>
                                         <hr>

@@ -47,7 +47,7 @@ AppAsset::register($this);
             'options' => ['class' => 'navbar-nav me-auto mb-2 mb-md-0 '],
             'items' => $menuItems,
         ]);
-        echo Html::tag('div', Html::a('Reservations', '#', ['class' => ['btn btn_outline text-decoration-none']]), ['class' => ['d-flex']]);
+        echo Html::tag('div', Html::a('Reservations', 'tel:+998 55 707 55 55', ['class' => ['btn btn_outline text-decoration-none']]), ['class' => ['d-flex']]);
         NavBar::end();
         ?>
     </header>
