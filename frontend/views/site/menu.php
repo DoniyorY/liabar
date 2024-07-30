@@ -41,8 +41,8 @@ $baseUrl = Yii::$app->request->baseUrl;
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="row">
-                                                <div class="col-8"><h4 class="white"><?=$m->{"title_en"}?></h4></div>
-                                                <div class="col-4"><?=Yii::$app->formatter->asDecimal($m->price,0)?> UZS</div>
+                                                <div class="col-md-8 col-7"><h4 class="white"><?=$m->{"title_en"}?></h4></div>
+                                                <div class="col-md-4 col-5"><?=Yii::$app->formatter->asDecimal($m->price,0)?> UZS</div>
                                                 <hr style="height: 5px;">
                                                 <div class="col-12"><?=$m->{"short_en"}?>
                                                 </div>
@@ -109,11 +109,11 @@ $baseUrl = Yii::$app->request->baseUrl;
                             <?php foreach ($menu as $m): ?>
                                 <div class="col-md-12 menu_bar_item">
                                     <div class="row menu_bar_container">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-6">
                                             <h4 class="white"><?= $m->{"title_en"} ?></h4>
                                         </div>
-                                        <div class="col-md-4 text-center"><?= $m->{"country_en"} ?></div>
-                                        <div class="col-md-4 text-end"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
+                                        <div class="col-md-4 col-6 text-center"><?= $m->{"country_en"} ?></div>
+                                        <div class="col-md-4 col-12 text-end"><?= Yii::$app->formatter->asDecimal($m->price, 0) ?>
                                             UZS
                                         </div>
                                         <hr>

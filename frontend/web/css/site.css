@@ -426,7 +426,9 @@ a.desc:after {
     .index_desc p {
         width: 100%;
     }
-
+    .menu_item{
+        padding: 10px;
+    }
     .index_2_desc p {
         font-size: 35px;
         line-height: 35px;
