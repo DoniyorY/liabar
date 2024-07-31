@@ -42,7 +42,7 @@ $lang = Yii::$app->language;
         <div class="section_inner">
             <div class="row h500px">
                 <div class="col-md-6 lleft_content">
-                    <img src="<?= "$baseUrl/images/r-2.png" ?>" alt="">
+                    <img src="<?= "$baseUrl/images/r-2.jpg" ?>" alt="">
                 </div>
                 <div class="col-md-6 lright_content">
                     <h3>Exclusive Parties</h3>
