@@ -74,7 +74,7 @@ $lang = Yii::$app->language;
                     </div>
                 </div>
                 <div class="col-md-6 right_content">
-                    <img src="<?= "$baseUrl/images/l-1.png" ?>" alt="">
+                    <img src="<?= "$baseUrl/images/l-1.jpg" ?>" alt="">
                 </div>
             </div>
         </div>
@@ -92,8 +92,8 @@ $lang = Yii::$app->language;
                 <p>
                     Our exclusive parties are unforgettable events that immerse you in an atmosphere of luxury and
                     fun. With top DJs, unique themes, and carefully curated music, we create the perfect setting for
-                    dancing and socializing. Join us to experience the best of nightlife at <span
-                            class="yellow">Li Bai.</span>
+                    dancing and socializing. Join us to experience the best of nightlife at
+                    <span class="yellow">Li Bai.</span>
                 </p>
             </div>
             <div class="col-12 mt-5">
@@ -108,7 +108,7 @@ $lang = Yii::$app->language;
                 </p>
             </div>
             <div class="col-12 mt-5">
-                <img src="<?= "$baseUrl/images/l-1.png" ?>" alt="" style="width: 100%; object-fit: cover">
+                <img src="<?= "$baseUrl/images/l-1.jpg" ?>" alt="" style="width: 100%; object-fit: cover">
             </div>
             <div class="col-12 text-center mt-4">
                 <h3>Performances by Renowned DJs</h3>
